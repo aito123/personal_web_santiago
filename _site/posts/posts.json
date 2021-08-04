@@ -1,22 +1,5 @@
 [
   {
-    "path": "posts/welcome/",
-    "title": "Welcome to personal_web_santiago",
-    "description": "Welcome to our new blog, personal_web_santiago. We hope you enjoy \nreading what we have to say!",
-    "author": [
-      {
-        "name": "Nora Jones",
-        "url": "https://example.com/norajones"
-      }
-    ],
-    "date": "2021-08-04",
-    "categories": [],
-    "contents": "\r\n\r\n\r\n\r\n",
-    "preview": {},
-    "last_modified": "2021-08-04T01:09:14-05:00",
-    "input_file": {}
-  },
-  {
     "path": "posts/2021-08-04-second-post/",
     "title": "Second post",
     "description": "A short description of the post.",
@@ -30,7 +13,24 @@
     "categories": [],
     "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\nThis is a second post for test purposes.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-08-04T01:17:36-05:00",
-    "input_file": "second-post.knit.md"
+    "last_modified": "2021-08-04T01:17:38-05:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/welcome/",
+    "title": "Welcome to personal_web_santiago",
+    "description": "Welcome to our new blog, personal_web_santiago. We hope you enjoy \nreading what we have to say!",
+    "author": [
+      {
+        "name": "Nora Jones",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2021-08-04",
+    "categories": [],
+    "contents": "\r\n\r\n                   mpg cyl disp  hp drat    wt  qsec vs am gear carb\r\nMazda RX4         21.0   6  160 110 3.90 2.620 16.46  0  1    4    4\r\nMazda RX4 Wag     21.0   6  160 110 3.90 2.875 17.02  0  1    4    4\r\nDatsun 710        22.8   4  108  93 3.85 2.320 18.61  1  1    4    1\r\nHornet 4 Drive    21.4   6  258 110 3.08 3.215 19.44  1  0    3    1\r\nHornet Sportabout 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2\r\nValiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1\r\n\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-08-04T01:38:13-05:00",
+    "input_file": "welcome.knit.md"
   }
 ]

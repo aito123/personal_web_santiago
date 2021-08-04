@@ -1,11 +1,11 @@
-name: "personal_web_santiago"
-title: "personal_web_santiago"
+name: "Santiago Sotelo"
+title: "Santiago Sotelo"
 description: |
-  personal_web_santiago
+  Posts
 output_dir: "_site"
 navbar:
   right:
-    - text: "Home"
+    - text: "Posts"
       href: index.html
     - text: "About"
       href: about.html
