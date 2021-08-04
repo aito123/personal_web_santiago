@@ -2,18 +2,18 @@
   "articles": [
     {
       "path": "about.html",
-      "title": "About this blog",
-      "description": "Some additional details about the blog",
+      "title": "Acerca de mí",
+      "description": "Mi nombre es Santiago Sotelo y estoy haciendo un blog en R, que emocionante.",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-08-04T01:33:07-05:00"
+      "last_modified": "2021-08-04T01:45:48-05:00"
     },
     {
       "path": "index.html",
-      "title": "personal_web_santiago",
+      "title": "Posts",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-08-04T01:33:10-05:00"
+      "last_modified": "2021-08-04T01:48:27-05:00"
     }
   ],
   "collections": ["posts/posts.json"]

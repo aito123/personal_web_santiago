@@ -1,7 +1,7 @@
 ---
-title: "About this blog"
+title: "Acerca de mí"
 description: |
-  Some additional details about the blog
+  Mi nombre es Santiago Sotelo y estoy haciendo un blog en R, que emocionante.
 ---
 
 ```{r setup, include=FALSE}
