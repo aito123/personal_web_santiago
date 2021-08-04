@@ -1,7 +1,7 @@
 name: "Santiago Sotelo"
 title: "Santiago Sotelo"
 description: |
-  Publicaciones recientes
+  Descripción
 output_dir: "_site"
 navbar:
   right:
