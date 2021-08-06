@@ -1,14 +1,15 @@
 ---
-title: "Second post"
+title: "Explorando la Encuesta Permanente de Empleo (EPE) - 2021"
 description: |
-  A short description of the post.
+  En este post exploraremos la Encuesta Permanente de Empleo (EPE) realizada en fecha tal. La base de datos puedes descargarla aquí. Sin más, nos vamos.
 author:
-  - name: Nora Jones
-    url: https://example.com/norajones
+  - name: SS
+    url: https://santiagosotelo.netlify.app/
 date: 08-04-2021
 output:
   distill::distill_article:
     self_contained: false
+preview: img/rick-morty.jpg
 ---
 
 

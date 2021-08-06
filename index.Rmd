@@ -1,5 +1,16 @@
 ---
-title: "Publicaciones recientes"
+title: "Santiago Sotelo"
+image: "images/profile1.jpg"
+links:
+  - label: '<i class="fab fa-linkedin"></i> LinkedIn'
+    url: "https://www.linkedin.com/in/santiago-sotelo-989574171/"
+  - label: '<i class="fab fa-github"></i> GitHub'
+    url: "https://github.com/aito123/"
+  - label: '<i class="fas fa-envelope"></i> Email'
+    url: "mailto:santiago.sotelo@pucp.edu.pe"
+output:
+  postcards::jolla
 site: distill::distill_website
-listing: posts
 ---
+
+Hola mi nombre es Santiago Sotelo y actualmente estudio sociología en la PUCP, Perú. Me interesan los temas de programación y análisis de data lo cual complemento con teoría sociológica. Trabajo en el Instituto de Analítica Social e Inteligencia Estratégica - Pulso PUCP como practicante cuantitativo y para mayor info sobre mi trayectoria puedes revisar mi CV.

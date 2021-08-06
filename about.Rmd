@@ -1,9 +1,0 @@
----
-title: "Acerca de mí"
-description: |
-  Mi nombre es Santiago Sotelo y estoy haciendo un blog en R, que emocionante.
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```

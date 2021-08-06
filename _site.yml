@@ -1,12 +1,19 @@
 name: "Santiago Sotelo"
 title: "Santiago Sotelo"
 description: |
-  Descripción
+  Estudiante de sociología PUCP - Perú
 output_dir: "_site"
 navbar:
   right:
-    - text: "Posts"
+    - text: "Home"
       href: index.html
-    - text: "About"
-      href: about.html
+    - text: "Posts"
+      href: posts.html
+    - text: "CV"
+      href: cv.pdf
+    - icon: fa-github
+      href: https://github.com/aito123/
+    - icon: fa-linkedin
+      href: https://www.linkedin.com/in/santiago-sotelo-989574171/
 output: distill::distill_article
+theme: theme.css
