@@ -14,10 +14,10 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunks$set(echo=FALSE)
+knitr::opts_chunk$set(echo=FALSE)
 ```
 
-```{r}
+```{r, preview=TRUE}
 
 knitr::include_graphics("img/rick-morty.jpg")
 
