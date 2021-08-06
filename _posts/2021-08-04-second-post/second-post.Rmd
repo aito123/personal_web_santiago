@@ -2,20 +2,28 @@
 title: "Explorando la Encuesta Permanente de Empleo (EPE) - 2021"
 description: |
   En este post exploraremos la Encuesta Permanente de Empleo (EPE) realizada en fecha tal. La base de datos puedes descargarla aquí. Sin más, nos vamos.
+categories:
+  - INEI
 author:
   - name: SS
     url: https://santiagosotelo.netlify.app/
 date: 08-04-2021
 output:
   distill::distill_article:
-    self_contained: false
-preview: img/rick-morty.jpg
+    self_contained: FALSE
 ---
 
-
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunks$set(echo=FALSE)
 ```
+
+```{r}
+
+knitr::include_graphics("img/rick-morty.jpg")
+
+```
+
+
 
 Distill is a publication format for scientific and technical writing, native to the web.
 
