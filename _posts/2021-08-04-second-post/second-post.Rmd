@@ -11,13 +11,14 @@ date: 08-04-2021
 output:
   distill::distill_article:
     self_contained: FALSE
+    Preview: TRUE
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo=FALSE)
 ```
 
-```{r, preview=TRUE}
+```{r fig.cap="Figure from Rick and Morty Season 1 episode 3", preview=TRUE}
 
 knitr::include_graphics("img/rick-morty.jpg")
 
