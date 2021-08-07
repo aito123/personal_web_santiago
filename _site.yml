@@ -1,6 +1,6 @@
 name: "Santiago Sotelo"
 title: "SANTIAGO SOTELO"
-favicon: images/favicon.ico
+favicon: "images/favicon.ico"
 description: |
   Estudiante de sociología PUCP - Perú
 output_dir: "_site"
