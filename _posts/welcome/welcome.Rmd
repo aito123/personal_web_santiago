@@ -3,6 +3,7 @@ title: "Welcome to personal_web_santiago"
 description: |
   Welcome to our new blog, personal_web_santiago. We hope you enjoy 
   reading what we have to say!
+draft: true
 author:
   - name: Nora Jones 
     url: https://example.com/norajones

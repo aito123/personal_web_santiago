@@ -1,7 +1,8 @@
 ---
 title: "Explorando la Encuesta Permanente de Empleo (EPE) - 2021"
 description: |
-  En este post exploraremos la Encuesta Permanente de Empleo (EPE) realizada en fecha tal. La base de datos puedes descargarla aquí. Empecemos.
+  En este post exploraremos la Encuesta Permanente de Empleo (EPE) realizada en fecha tal. La base de datos puedes descargarla aquí. Empecemos.    
+draft: true
 preview: "img/rick-morty.jpg"
 categories:
   - INEI
@@ -15,7 +16,7 @@ output:
     code_folding: true
     self_contained: FALSE
     toc: true
-    toc_float: true
+
 ---
 
 ```{r setup, include=FALSE}
@@ -27,6 +28,7 @@ knitr::opts_chunk$set(echo=FALSE)
 knitr::include_graphics("img/rick-morty.jpg")
 
 ```
+
 
 # Título 1
 
@@ -58,6 +60,7 @@ This material was developed using:
 | `gtsummary`         | 1.3.5                 |
 | `writexl`           | 1.4.0                 |
 
+# Título 2
 
 ```{r, eval=FALSE}
 library(tidyverse)  # general use ----
@@ -71,6 +74,8 @@ library(writexl)    # export excel tables ----
 # Data preparation
 
 First, I import the data with `haven::read_sav()`.
+
+# Título 3
 
 ```{r, eval=FALSE}
 # import data ----
@@ -86,6 +91,8 @@ dat <- dat_raw %>%
   # a few variables
   dplyr::select(record, year, stheight, q12, q69) 
 ```
+
+# Título 4
 
 ```{r}
 head(mtcars)
