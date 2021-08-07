@@ -13,9 +13,9 @@
     "categories": [
       "INEI"
     ],
-    "contents": "\r\n\r\n\r\n\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\nThis is a second post for test purposes.\r\n\r\n\r\n\r\n",
+    "contents": "\r\n\r\nContents\r\nTítulo 1\r\nSubtítulo 1\r\n\r\n\r\n\r\n\r\nShow code\r\n\r\nknitr::include_graphics(\"img/rick-morty.jpg\")\r\n\r\n\r\n\r\n\r\nFigure 1: Figure from Rick and Morty Season 1 episode 3\r\n\r\n\r\n\r\nTítulo 1\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\nSubtítulo 1\r\nThis is a second post for test purposes.\r\n\r\n\r\nShow code\r\n\r\n1 + 1\r\n\r\n\r\n[1] 2\r\n\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-08-06T01:47:14-05:00",
+    "last_modified": "2021-08-06T23:45:54-05:00",
     "input_file": {}
   },
   {

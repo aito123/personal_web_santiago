@@ -11,7 +11,7 @@ navbar:
     - text: "Posts"
       href: posts.html
     - text: "CV"
-      href: cv.pdf
+      href: cv.html
     - icon: fa-github
       href: https://github.com/aito123/
     - icon: fa-linkedin
