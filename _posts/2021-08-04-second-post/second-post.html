@@ -54,41 +54,36 @@ div.sourceCode
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-code span.al { color: #ad0000; } /* Alert */
-code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { color: #20794d; } /* Attribute */
-code span.bn { color: #ad0000; } /* BaseN */
+code span.al { color: #ff0000; } /* Alert */
+code span.an { color: #008000; } /* Annotation */
+code span.at { } /* Attribute */
 code span.bu { } /* BuiltIn */
-code span.cf { color: #007ba5; } /* ControlFlow */
-code span.ch { color: #20794d; } /* Char */
-code span.cn { color: #8f5902; } /* Constant */
-code span.co { color: #5e5e5e; } /* Comment */
-code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
-code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
-code span.dt { color: #ad0000; } /* DataType */
-code span.dv { color: #ad0000; } /* DecVal */
-code span.er { color: #ad0000; } /* Error */
+code span.cf { color: #0000ff; } /* ControlFlow */
+code span.ch { color: #008080; } /* Char */
+code span.cn { } /* Constant */
+code span.co { color: #008000; } /* Comment */
+code span.cv { color: #008000; } /* CommentVar */
+code span.do { color: #008000; } /* Documentation */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
 code span.ex { } /* Extension */
-code span.fl { color: #ad0000; } /* Float */
-code span.fu { color: #4758ab; } /* Function */
 code span.im { } /* Import */
-code span.in { color: #5e5e5e; } /* Information */
-code span.kw { color: #007ba5; } /* Keyword */
-code span.op { color: #5e5e5e; } /* Operator */
-code span.ot { color: #007ba5; } /* Other */
-code span.pp { color: #ad0000; } /* Preprocessor */
-code span.sc { color: #20794d; } /* SpecialChar */
-code span.ss { color: #20794d; } /* SpecialString */
-code span.st { color: #20794d; } /* String */
-code span.va { color: #111111; } /* Variable */
-code span.vs { color: #20794d; } /* VerbatimString */
-code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
+code span.in { color: #008000; } /* Information */
+code span.kw { color: #0000ff; } /* Keyword */
+code span.op { } /* Operator */
+code span.ot { color: #ff4000; } /* Other */
+code span.pp { color: #ff4000; } /* Preprocessor */
+code span.sc { color: #008080; } /* SpecialChar */
+code span.ss { color: #008080; } /* SpecialString */
+code span.st { color: #008080; } /* String */
+code span.va { } /* Variable */
+code span.vs { color: #008080; } /* VerbatimString */
+code span.wa { color: #008000; font-weight: bold; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
   <title>Explorando la Encuesta Permanente de Empleo (EPE) - 2021</title>
 
-  <meta property="description" itemprop="description" content="En este post exploraremos la Encuesta Permanente de Empleo (EPE) realizada en fecha tal. La base de datos puedes descargarla aquí. Sin más, nos vamos."/>
+  <meta property="description" itemprop="description" content="En este post exploraremos la Encuesta Permanente de Empleo (EPE) realizada en fecha tal. La base de datos puedes descargarla aquí. Empecemos."/>
 
 
   <!--  https://schema.org/Article -->
@@ -99,19 +94,19 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
   <meta property="og:title" content="Explorando la Encuesta Permanente de Empleo (EPE) - 2021"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="En este post exploraremos la Encuesta Permanente de Empleo (EPE) realizada en fecha tal. La base de datos puedes descargarla aquí. Sin más, nos vamos."/>
+  <meta property="og:description" content="En este post exploraremos la Encuesta Permanente de Empleo (EPE) realizada en fecha tal. La base de datos puedes descargarla aquí. Empecemos."/>
   <meta property="og:locale" content="en_US"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
   <meta property="twitter:title" content="Explorando la Encuesta Permanente de Empleo (EPE) - 2021"/>
-  <meta property="twitter:description" content="En este post exploraremos la Encuesta Permanente de Empleo (EPE) realizada en fecha tal. La base de datos puedes descargarla aquí. Sin más, nos vamos."/>
+  <meta property="twitter:description" content="En este post exploraremos la Encuesta Permanente de Empleo (EPE) realizada en fecha tal. La base de datos puedes descargarla aquí. Empecemos."/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","categories","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Explorando la Encuesta Permanente de Empleo (EPE) - 2021"]},{"type":"character","attributes":{},"value":["En este post exploraremos la Encuesta Permanente de Empleo (EPE) realizada en fecha tal. La base de datos puedes descargarla aquí. Sin más, nos vamos.\n"]},{"type":"character","attributes":{},"value":["INEI"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["SS"]},{"type":"character","attributes":{},"value":["https://santiagosotelo.netlify.app/"]}]}]},{"type":"character","attributes":{},"value":["08-04-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["code_folding","self_contained","toc"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"logical","attributes":{},"value":[false]},{"type":"logical","attributes":{},"value":[true]}]}]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","preview","categories","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Explorando la Encuesta Permanente de Empleo (EPE) - 2021"]},{"type":"character","attributes":{},"value":["En este post exploraremos la Encuesta Permanente de Empleo (EPE) realizada en fecha tal. La base de datos puedes descargarla aquí. Empecemos.\n"]},{"type":"character","attributes":{},"value":["img/rick-morty.jpg"]},{"type":"character","attributes":{},"value":["INEI"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["SS"]},{"type":"character","attributes":{},"value":["https://santiagosotelo.netlify.app/"]}]}]},{"type":"character","attributes":{},"value":["08-04-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["highlight","code_folding","self_contained","toc","toc_float"]}},"value":[{"type":"character","attributes":{},"value":["haddock"]},{"type":"logical","attributes":{},"value":[true]},{"type":"logical","attributes":{},"value":[false]},{"type":"logical","attributes":{},"value":[true]},{"type":"logical","attributes":{},"value":[true]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   
@@ -1455,7 +1450,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Explorando la Encuesta Permanente de Empleo (EPE) - 2021","description":"En este post exploraremos la Encuesta Permanente de Empleo (EPE) realizada en fecha tal. La base de datos puedes descargarla aquí. Sin más, nos vamos.","authors":[{"author":"SS","authorURL":"https://santiagosotelo.netlify.app/","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-08-04T00:00:00.000-05:00","citationText":"SS, 2021"}
+{"title":"Explorando la Encuesta Permanente de Empleo (EPE) - 2021","description":"En este post exploraremos la Encuesta Permanente de Empleo (EPE) realizada en fecha tal. La base de datos puedes descargarla aquí. Empecemos.","authors":[{"author":"SS","authorURL":"https://santiagosotelo.netlify.app/","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-08-04T00:00:00.000-05:00","citationText":"SS, 2021"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -1471,7 +1466,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <div class="dt=tag">INEI</div>
 </div>
 <!--/radix_placeholder_categories-->
-<p><p>En este post exploraremos la Encuesta Permanente de Empleo (EPE) realizada en fecha tal. La base de datos puedes descargarla aquí. Sin más, nos vamos.</p></p>
+<p><p>En este post exploraremos la Encuesta Permanente de Empleo (EPE) realizada en fecha tal. La base de datos puedes descargarla aquí. Empecemos.</p></p>
 </div>
 
 <div class="d-byline">
@@ -1489,6 +1484,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <ul>
 <li><a href="#subtítulo-1">Subtítulo 1</a></li>
 </ul></li>
+<li><a href="#getting-started">Getting started</a></li>
+<li><a href="#data-preparation">Data preparation</a></li>
 </ul>
 </nav>
 </div>
@@ -1503,7 +1500,7 @@ Show code
 </div>
 </details>
 <div class="figure"><span id="fig:unnamed-chunk-1"></span>
-<img src="img/rick-morty.jpg" alt="Figure from Rick and Morty Season 1 episode 3" data-distill-preview=1 />
+<img src="img/rick-morty.jpg" alt="Figure from Rick and Morty Season 1 episode 3"  />
 <p class="caption">
 Figure 1: Figure from Rick and Morty Season 1 episode 3
 </p>
@@ -1515,18 +1512,121 @@ Figure 1: Figure from Rick and Morty Season 1 episode 3
 <h2 id="subtítulo-1">Subtítulo 1</h2>
 <p>This is a second post for test purposes.</p>
 <div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fl'>1</span> <span class='op'>+</span> <span class='fl'>1</span>
+</code></pre>
+</div>
+<pre><code>[1] 2</code></pre>
+</div>
+<h1 id="getting-started">Getting started</h1>
+<p>This material was developed using:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Software / package</th>
+<th>Version</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>R</td>
+<td>4.0.5</td>
+</tr>
+<tr class="even">
+<td>RStudio</td>
+<td>1.4.1103</td>
+</tr>
+<tr class="odd">
+<td><code>tidyverse</code></td>
+<td>1.3.0</td>
+</tr>
+<tr class="even">
+<td><code>here</code></td>
+<td>1.0.1</td>
+</tr>
+<tr class="odd">
+<td><code>haven</code></td>
+<td>2.3.1</td>
+</tr>
+<tr class="even">
+<td><code>labelled</code></td>
+<td>2.5.0</td>
+</tr>
+<tr class="odd">
+<td><code>gtsummary</code></td>
+<td>1.3.5</td>
+</tr>
+<tr class="even">
+<td><code>writexl</code></td>
+<td>1.4.0</td>
+</tr>
+</tbody>
+</table>
+<div class="layout-chunk" data-layout="l-body">
 <details>
 <summary>
 Show code
 </summary>
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='fl'>1</span> <span class='op'>+</span> <span class='fl'>1</span>
+<pre class="sourceCode r"><code class="sourceCode r"><span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://tidyverse.tidyverse.org'>tidyverse</a></span><span class='op'>)</span>  <span class='co'># general use ----</span>
+<span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'>here</span><span class='op'>)</span>       <span class='co'># file paths  ----</span>
+<span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://haven.tidyverse.org'>haven</a></span><span class='op'>)</span>      <span class='co'># import .sav files ----  </span>
+<span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='http://larmarange.github.io/labelled/'>labelled</a></span><span class='op'>)</span>   <span class='co'># tools for labelled data ----</span>
+<span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'>gtsummary</span><span class='op'>)</span>  <span class='co'># produce summary tables ----</span>
+<span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'>writexl</span><span class='op'>)</span>    <span class='co'># export excel tables ----</span>
 </code></pre>
 </div>
 </details>
-<pre><code>[1] 2</code></pre>
 </div>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<h1 id="data-preparation">Data preparation</h1>
+<p>First, I import the data with <code>haven::read_sav()</code>.</p>
+<div class="layout-chunk" data-layout="l-body">
+<details>
+<summary>
+Show code
+</summary>
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='co'># import data ----</span>
+<span class='va'>dat_raw</span> <span class='op'>&lt;-</span> <span class='fu'>haven</span><span class='fu'>::</span><span class='fu'><a href='https://haven.tidyverse.org/reference/read_spss.html'>read_sav</a></span><span class='op'>(</span><span class='fu'>here</span><span class='fu'>::</span><span class='fu'>here</span><span class='op'>(</span> <span class='st'>"_posts"</span>, <span class='st'>"2020-12-23-leveraging-labelled-data-in-r"</span>, <span class='st'>"data"</span>, <span class='st'>"sadc_2017_national.sav"</span><span class='op'>)</span><span class='op'>)</span>
+</code></pre>
+</div>
+</details>
+</div>
+<p>Then I keep just two years of data for comparison on three question.</p>
+<div class="layout-chunk" data-layout="l-body">
+<details>
+<summary>
+Show code
+</summary>
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='va'>dat</span> <span class='op'>&lt;-</span> <span class='va'>dat_raw</span> <span class='op'>%&gt;%</span> 
+  <span class='co'># two most recent years ----</span>
+  <span class='fu'>dplyr</span><span class='fu'>::</span><span class='fu'><a href='https://dplyr.tidyverse.org/reference/filter.html'>filter</a></span><span class='op'>(</span><span class='va'>year</span> <span class='op'>%in%</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='fl'>2015</span>, <span class='fl'>2017</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>%&gt;%</span> 
+  <span class='co'># a few variables</span>
+  <span class='fu'>dplyr</span><span class='fu'>::</span><span class='fu'><a href='https://dplyr.tidyverse.org/reference/select.html'>select</a></span><span class='op'>(</span><span class='va'>record</span>, <span class='va'>year</span>, <span class='va'>stheight</span>, <span class='va'>q12</span>, <span class='va'>q69</span><span class='op'>)</span> 
+</code></pre>
+</div>
+</details>
+</div>
+<div class="layout-chunk" data-layout="l-body">
+<details>
+<summary>
+Show code
+</summary>
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span><span class='op'>(</span><span class='va'>mtcars</span><span class='op'>)</span>
+</code></pre>
+</div>
+</details>
+<pre><code>                   mpg cyl disp  hp drat    wt  qsec vs am gear carb
+Mazda RX4         21.0   6  160 110 3.90 2.620 16.46  0  1    4    4
+Mazda RX4 Wag     21.0   6  160 110 3.90 2.875 17.02  0  1    4    4
+Datsun 710        22.8   4  108  93 3.85 2.320 18.61  1  1    4    1
+Hornet 4 Drive    21.4   6  258 110 3.08 3.215 19.44  1  0    3    1
+Hornet Sportabout 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2
+Valiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1</code></pre>
+</div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>

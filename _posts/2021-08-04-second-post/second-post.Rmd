@@ -1,7 +1,8 @@
 ---
 title: "Explorando la Encuesta Permanente de Empleo (EPE) - 2021"
 description: |
-  En este post exploraremos la Encuesta Permanente de Empleo (EPE) realizada en fecha tal. La base de datos puedes descargarla aquí. Sin más, nos vamos.
+  En este post exploraremos la Encuesta Permanente de Empleo (EPE) realizada en fecha tal. La base de datos puedes descargarla aquí. Empecemos.
+preview: "img/rick-morty.jpg"
 categories:
   - INEI
 author:
@@ -10,16 +11,18 @@ author:
 date: 08-04-2021
 output:
   distill::distill_article:
+    highlight: haddock
     code_folding: true
     self_contained: FALSE
     toc: true
+    toc_float: true
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo=FALSE)
 ```
 
-```{r fig.cap="Figure from Rick and Morty Season 1 episode 3", preview=TRUE}
+```{r fig.cap="Figure from Rick and Morty Season 1 episode 3"}
 
 knitr::include_graphics("img/rick-morty.jpg")
 
@@ -35,6 +38,56 @@ Learn more about using Distill at <https://rstudio.github.io/distill>.
 
 This is a second post for test purposes.
 
-```{r, code_folding=TRUE}
+```{r, code_folding=FALSE}
 1 + 1
 ```
+
+
+# Getting started 
+
+This material was developed using:
+
+| Software / package  | Version               |
+|---------------------|-----------------------|
+| R                   | 4.0.5                 | 
+| RStudio             | 1.4.1103              | 
+| `tidyverse`         | 1.3.0                 |
+| `here`              | 1.0.1                 |
+| `haven`             | 2.3.1                 |
+| `labelled`          | 2.5.0                 |
+| `gtsummary`         | 1.3.5                 |
+| `writexl`           | 1.4.0                 |
+
+
+```{r, eval=FALSE}
+library(tidyverse)  # general use ----
+library(here)       # file paths  ----
+library(haven)      # import .sav files ----  
+library(labelled)   # tools for labelled data ----
+library(gtsummary)  # produce summary tables ----
+library(writexl)    # export excel tables ----
+```
+
+# Data preparation
+
+First, I import the data with `haven::read_sav()`.
+
+```{r, eval=FALSE}
+# import data ----
+dat_raw <- haven::read_sav(here::here( "_posts", "2020-12-23-leveraging-labelled-data-in-r", "data", "sadc_2017_national.sav"))
+```
+
+Then I keep just two years of data for comparison on three question.
+
+```{r, eval=FALSE}
+dat <- dat_raw %>% 
+  # two most recent years ----
+  dplyr::filter(year %in% c(2015, 2017)) %>% 
+  # a few variables
+  dplyr::select(record, year, stheight, q12, q69) 
+```
+
+```{r}
+head(mtcars)
+```
+

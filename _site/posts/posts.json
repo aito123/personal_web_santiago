@@ -2,7 +2,7 @@
   {
     "path": "posts/2021-08-04-second-post/",
     "title": "Explorando la Encuesta Permanente de Empleo (EPE) - 2021",
-    "description": "En este post exploraremos la Encuesta Permanente de Empleo (EPE) realizada en fecha tal. La base de datos puedes descargarla aquí. Sin más, nos vamos.",
+    "description": "En este post exploraremos la Encuesta Permanente de Empleo (EPE) realizada en fecha tal. La base de datos puedes descargarla aquí. Empecemos.",
     "author": [
       {
         "name": "SS",
@@ -13,10 +13,10 @@
     "categories": [
       "INEI"
     ],
-    "contents": "\r\n\r\nContents\r\nTítulo 1\r\nSubtítulo 1\r\n\r\n\r\n\r\n\r\nShow code\r\n\r\nknitr::include_graphics(\"img/rick-morty.jpg\")\r\n\r\n\r\n\r\n\r\nFigure 1: Figure from Rick and Morty Season 1 episode 3\r\n\r\n\r\n\r\nTítulo 1\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\nSubtítulo 1\r\nThis is a second post for test purposes.\r\n\r\n\r\nShow code\r\n\r\n1 + 1\r\n\r\n\r\n[1] 2\r\n\r\n\r\n\r\n\r\n",
-    "preview": {},
-    "last_modified": "2021-08-06T23:45:54-05:00",
-    "input_file": {}
+    "contents": "\r\n\r\nContents\r\nTítulo 1\r\nSubtítulo 1\r\n\r\nGetting started\r\nData preparation\r\n\r\n\r\n\r\nShow code\r\n\r\nknitr::include_graphics(\"img/rick-morty.jpg\")\r\n\r\n\r\n\r\n\r\nFigure 1: Figure from Rick and Morty Season 1 episode 3\r\n\r\n\r\n\r\nTítulo 1\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\nSubtítulo 1\r\nThis is a second post for test purposes.\r\n\r\n\r\n1 + 1\r\n\r\n\r\n[1] 2\r\n\r\nGetting started\r\nThis material was developed using:\r\nSoftware / package\r\nVersion\r\nR\r\n4.0.5\r\nRStudio\r\n1.4.1103\r\ntidyverse\r\n1.3.0\r\nhere\r\n1.0.1\r\nhaven\r\n2.3.1\r\nlabelled\r\n2.5.0\r\ngtsummary\r\n1.3.5\r\nwritexl\r\n1.4.0\r\n\r\n\r\nShow code\r\n\r\nlibrary(tidyverse)  # general use ----\r\nlibrary(here)       # file paths  ----\r\nlibrary(haven)      # import .sav files ----  \r\nlibrary(labelled)   # tools for labelled data ----\r\nlibrary(gtsummary)  # produce summary tables ----\r\nlibrary(writexl)    # export excel tables ----\r\n\r\n\r\n\r\nData preparation\r\nFirst, I import the data with haven::read_sav().\r\n\r\n\r\nShow code\r\n\r\n# import data ----\r\ndat_raw <- haven::read_sav(here::here( \"_posts\", \"2020-12-23-leveraging-labelled-data-in-r\", \"data\", \"sadc_2017_national.sav\"))\r\n\r\n\r\n\r\nThen I keep just two years of data for comparison on three question.\r\n\r\n\r\nShow code\r\n\r\ndat <- dat_raw %>% \r\n  # two most recent years ----\r\n  dplyr::filter(year %in% c(2015, 2017)) %>% \r\n  # a few variables\r\n  dplyr::select(record, year, stheight, q12, q69) \r\n\r\n\r\n\r\n\r\n\r\nShow code\r\n\r\nhead(mtcars)\r\n\r\n\r\n                   mpg cyl disp  hp drat    wt  qsec vs am gear carb\r\nMazda RX4         21.0   6  160 110 3.90 2.620 16.46  0  1    4    4\r\nMazda RX4 Wag     21.0   6  160 110 3.90 2.875 17.02  0  1    4    4\r\nDatsun 710        22.8   4  108  93 3.85 2.320 18.61  1  1    4    1\r\nHornet 4 Drive    21.4   6  258 110 3.08 3.215 19.44  1  0    3    1\r\nHornet Sportabout 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2\r\nValiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1\r\n\r\n\r\n\r\n\r\n",
+    "preview": "posts/2021-08-04-second-post/img/rick-morty.jpg",
+    "last_modified": "2021-08-07T00:57:46-05:00",
+    "input_file": "second-post.knit.md"
   },
   {
     "path": "posts/welcome/",
