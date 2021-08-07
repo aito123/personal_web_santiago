@@ -2,7 +2,6 @@
 title: "Explorando la Encuesta Permanente de Empleo (EPE) - 2021"
 description: |
   En este post exploraremos la Encuesta Permanente de Empleo (EPE) realizada en fecha tal. La base de datos puedes descargarla aquí. Empecemos.
-preview: "img/peru_trabajo.jpg"
 categories:
   - INEI
 author:
@@ -12,20 +11,20 @@ date: 08-04-2021
 output:
   distill::distill_article:
     highlight: haddock
-    code_folding: true
     self_contained: FALSE
     toc: true
+preview: "img/peru_trabajo.jpg"
 ---
 
-```{r, fig.cap="Fuente: Gestión"}
+```{r, fig.cap="Fuente: Gestión", echo= FALSE}
 
 knitr::include_graphics("img/peru_trabajo.jpg")
 
 ```
 
 
-```{r setup, include=FALSE, code_folding=TRUE}
-knitr::opts_chunk$set(echo=FALSE)
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=TRUE, code_folding = TRUE)
 ```
 
 
@@ -73,7 +72,7 @@ dat <- dat_raw %>%
 
 # Título 4
 
-```{r}
+```{r, echo=TRUE, code_folding= TRUE}
 head(mtcars)
 ```
 
