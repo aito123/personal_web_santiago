@@ -17,14 +17,15 @@ output:
     toc: true
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo=FALSE)
-```
-
-```{r fig.cap="Fuente: Gestión"}
+```{r, fig.cap="Fuente: Gestión"}
 
 knitr::include_graphics("img/peru_trabajo.jpg")
 
+```
+
+
+```{r setup, include=FALSE, code_folding=TRUE}
+knitr::opts_chunk$set(echo=FALSE)
 ```
 
 
@@ -38,3 +39,42 @@ Learn more about using Distill at <https://rstudio.github.io/distill>.
 
 This is a second post for test purposes.
 
+# Título 2
+
+```{r, eval=FALSE}
+library(tidyverse)  # general use ----
+library(here)       # file paths  ----
+library(haven)      # import .sav files ----  
+library(labelled)   # tools for labelled data ----
+library(gtsummary)  # produce summary tables ----
+library(writexl)    # export excel tables ----
+```
+
+# Data preparation
+
+First, I import the data with `haven::read_sav()`.
+
+# Título 3
+
+```{r, eval=FALSE}
+# import data ----
+dat_raw <- haven::read_sav(here::here( "_posts", "2020-12-23-leveraging-labelled-data-in-r", "data", "sadc_2017_national.sav"))
+```
+
+Then I keep just two years of data for comparison on three question.
+
+```{r, eval=FALSE}
+dat <- dat_raw %>% 
+  # two most recent years ----
+  dplyr::filter(year %in% c(2015, 2017)) %>% 
+  # a few variables
+  dplyr::select(record, year, stheight, q12, q69) 
+```
+
+# Título 4
+
+```{r}
+head(mtcars)
+```
+
+> America … risked endorsing a dual-class society where some have access to real opportunity and others do not. 
