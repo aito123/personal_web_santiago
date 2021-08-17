@@ -14,6 +14,7 @@ output:
     self_contained: FALSE
     toc: true
 preview: "img/peru_trabajo.jpg"
+draft: TRUE
 ---
 
 ```{r, fig.cap="Fuente: Gestión", echo= FALSE}

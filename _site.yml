@@ -7,8 +7,8 @@ navbar:
   right:
     - text: "Home"
       href: index.html
-    - text: "Posts"
-      href: posts.html
+#    - text: "Posts"
+#      href: posts.html
     - text: "CV"
       href: cv.html
     - icon: fa-github
