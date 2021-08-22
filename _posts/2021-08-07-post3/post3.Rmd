@@ -14,7 +14,7 @@ output:
     self_contained: FALSE
     toc: true
 preview: "img/peru_trabajo.jpg"
-draft: FALSE
+draft: TRUE
 ---
 
 ```{r, fig.cap="Fuente: Gestión", echo= FALSE}
@@ -32,6 +32,8 @@ knitr::opts_chunk$set(echo=TRUE, code_folding = TRUE)
 # Título 1
 
 Hola 22.08.21
+
+Intento de joint cmd can i see it in the viewer. Parece que no se ve. Ahora?
 
 Distill is a publication format for scientific and technical writing, native to the web.
 
