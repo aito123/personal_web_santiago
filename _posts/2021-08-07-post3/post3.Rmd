@@ -1,7 +1,7 @@
 ---
 title: "Explorando la Encuesta Permanente de Empleo (EPE) - 2021"
 description: |
-  En este post exploraremos la Encuesta Permanente de Empleo (EPE) realizada en fecha tal. La base de datos puedes descargarla aquÃ­. Empecemos.
+  En este post exploraremos la Encuesta Permanente de Empleo (EPE) realizada en fecha tal. La base de datos puedes descargarla aquí. Empecemos.
 categories:
   - INEI
 author:
@@ -17,7 +17,7 @@ preview: "img/peru_trabajo.jpg"
 draft: TRUE
 ---
 
-```{r, fig.cap="Fuente: GestiÃ³n", echo= FALSE}
+```{r, fig.cap="Fuente: Gestión", echo= FALSE}
 
 knitr::include_graphics("img/peru_trabajo.jpg")
 
@@ -29,7 +29,7 @@ knitr::opts_chunk$set(echo=TRUE, code_folding = TRUE)
 ```
 
 
-# TÃ­tulo 1
+# Título 1
 
 Hola 22.08.21
 
@@ -39,11 +39,11 @@ Distill is a publication format for scientific and technical writing, native to 
 
 Learn more about using Distill at <https://rstudio.github.io/distill>.
 
-## SubtÃ­tulo 1
+## Subtítulo 1
 
 This is a second post for test purposes.
 
-# TÃ­tulo 2
+# Título 2
 
 ```{r, eval=FALSE}
 library(tidyverse)  # general use ----
@@ -58,7 +58,7 @@ library(writexl)    # export excel tables ----
 
 First, I import the data with `haven::read_sav()`.
 
-# TÃ­tulo 3
+# Título 3
 
 ```{r, eval=FALSE}
 # import data ----
@@ -75,10 +75,10 @@ dat <- dat_raw %>%
   dplyr::select(record, year, stheight, q12, q69) 
 ```
 
-# TÃ­tulo 4
+# Título 4
 
 ```{r, echo=TRUE, code_folding= TRUE}
 head(mtcars)
 ```
 
-> America â€¦ risked endorsing a dual-class society where some have access to real opportunity and others do not. 
+> America . risked endorsing a dual-class society where some have access to real opportunity and others do not. 

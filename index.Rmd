@@ -13,4 +13,4 @@ output:
 site: distill::distill_website
 ---
 
-Hola mi nombre es Santiago Sotelo y actualmente estudio sociología en la Pontificia Universidad Católica del Perú - PUCP. Me interesan los temas de programación y análisis de data, los cuales complemento con teoría sociológica. Trabajo en el [Instituto de Analítica Social e Inteligencia Estratégica - Pulso PUCP](https://pulso.pucp.edu.pe/) como practicante cuantitativo y para mayor info sobre mi trayectoria puedes revisar mi CV.
+Hola mi nombre es Santiago Sotelo y actualmente estudio sociología en la Pontificia Universidad Católica del Perú - PUCP. Me interesan los temas de programación y análisis de data, los cuales complemento con teoría sociológica. Trabajo en el [Laboratorio de Inteligencia Artifical y Métodos Computacionales en Ciencias Sociales (QLAB)](https://qlab.pucp.edu.pe/) como practicante de investigación. Para mayor información sobre mi trayectoria puedes revisar mi CV.
