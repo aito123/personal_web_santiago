@@ -1,5 +1,6 @@
 name: "Santiago Sotelo"
 title: "Santiago Sotelo"
+favicon: images/favicon.ico
 description: |
   Estudiante de sociología PUCP - Perú
 base_url: https://santiagosotelo.netlify.app/
@@ -20,4 +21,4 @@ navbar:
       href: index.xml
 output: distill::distill_article
 theme: theme.css
-favicon: images/favicon.ico
+
